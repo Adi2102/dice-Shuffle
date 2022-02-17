@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Pacifico&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+.main {
+  width: 100%;
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#img {
+  width: 400px;
+  height: 400px;
+}
+
+#btn {
+  width: 320px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-image: linear-gradient(
+    317deg,
+    rgba(34, 70, 195, 1) 0%,
+    rgba(213, 13, 13, 1) 70%
+  );
+}
+
+#btn:hover {
+  background-image: linear-gradient(19deg, #21d4fd 10%, #b721ff 70%);
+  color: black;
+}
+
+.footer {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(140, 14, 129, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 33px;
+  padding-top: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: yellow;
+}
